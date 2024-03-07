@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#headsale{
+    background-color: antiquewhite;
+}
+#headsale h1{
+ font-size: 30px;
+ text-transform: uppercase;
+ display:flex;
+ justify-content: center;
+ color:blue;
+}
+#headsale p{
+    font-size: 15px;
+    display:block;
+    margin-right: 10px;
+    margin-left: 25px;
+    color:black;
+}
+marquee{
+    background-color: rgb(43, 46, 23);
+}
+marquee p{
+    color:rgb(68, 114, 189);
+    text-transform: uppercase;
+    text-align: center;
+}
+.menu{
+    display:flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.menu img{
+    width:100px;
+    height:auto;
+
+}
+.menu li{
+    margin:auto;
+    list-style-type: none;
+}
+.menu #search{
+    margin-left: 200px;
+}
+#search input{
+    width:300px;
+    height:40px;
+    border-radius: 100px;
+}
+#brick:hover{
+    transition: box-shadow .4s, color.3s;
+    box-shadow: 0 3px tomato;
+}
+.menu .sub-menu{
+    position: absolute;
+    display:none;
+top:auto;
+left:auto;
+}
+.menu .sub-menu1{
+    position: absolute;
+    display:none;
+top:auto;
+left:auto;
+}
+.menu li:hover .sub-menu1{
+    background-color: rgb(7, 64, 64);
+    display:flex;
+    padding:10px;
+}
+main{
+    padding: 50px;
+}
+marquee{
+    margin-top:20 px;
+    background-color: rgb(247, 247, 247);
+}
+.slide img{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;
+    height:auto;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 5px;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section p{
+    text-align:left;
+}
+.section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(85, 142, 220);
+    margin-bottom: 20px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product{
+    width: calc(33.3% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+    width: 100%;
+    border: 2px solid rgb(17, 17, 17);
+    margin-bottom: 20px;
+    border-radius:10px;
+}
+.product h3{
+    margin: 0;
+}
+.product p{
+    margin: 10px 0;
+}
+.product button{
+    background-color: #222;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.product li{
+    color:rgb(0, 0, 0);
+    margin:auto;
+    list-style-type: none;
+}
+section form{
+    margin-left: 35%;  
+}
+section h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(81, 123, 228);
+    margin-bottom: 20px;
+}
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+}
+#email{
+    margin-left: 77px;
+}
+#message{
+    margin-left: 52px;
+}
+section form button{
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    margin-left: 366px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and(max-width: 768px) {
+    header{
+        padding: 10px;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .products{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: calc(100%/2 - 10px);
+        margin-bottom: 30px;
+    }
+    
+}
